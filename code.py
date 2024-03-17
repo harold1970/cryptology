@@ -10,7 +10,7 @@ disk1 = random.randint(1,100000)
 disk2 = random.randint(1,1000000)
 disk3 = random.randint(1,10000000)
 rotationletter = random.randint(0,26)
-print(f"___IMPORTANT___ key:{alphabet[rotationletter]} disk 1: {disk1} disk 2: {disk2} disk 3: {disk3}")
+print(f"___IMPORTANT___ key:{rotationletter} disk 1: {disk1} disk 2: {disk2} disk 3: {disk3}")
 #rotate the decode alphabet
 decodeAlphabet[rotationletter:]
 decodeAlphabet = decodeAlphabet[rotationletter:] + decodeAlphabet[:rotationletter]

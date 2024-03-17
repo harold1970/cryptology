@@ -9,7 +9,7 @@ finalAlphabet = {'a': None, 'b': None, 'c': None, 'd': None, 'e': None, 'f': Non
 disk1 = int(input("disk 1: "))
 disk2 = int(input("disk 2: "))
 disk3 = int(input("disk 3: "))
-rotationletter = alphabet.index(str(input("key: ")))
+rotationletter = int(input("key: "))
 
 print(f"___IMPORTANT___ key:{alphabet[rotationletter]} disk 1: {disk1} disk 2: {disk2} disk 3: {disk3}")
 #rotate the decode alphabet
