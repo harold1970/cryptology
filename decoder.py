@@ -11,7 +11,7 @@ disk2 = int(input("disk 2: "))
 disk3 = int(input("disk 3: "))
 rotationletter = int(input("key: "))
 
-print(f"___IMPORTANT___ key:{alphabet[rotationletter]} disk 1: {disk1} disk 2: {disk2} disk 3: {disk3}")
+print(f"___IMPORTANT___ key:{rotationletter} disk 1: {disk1} disk 2: {disk2} disk 3: {disk3}")
 #rotate the decode alphabet
 decodeAlphabet[rotationletter:]
 decodeAlphabet = decodeAlphabet[-rotationletter:] + decodeAlphabet[:-rotationletter]
